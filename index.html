@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="./css/style.css">-->
+    <script src="./js/script.js"></script>
+    <title>Html</title>
+</head>
+
+<body>
+
+    <h1>Bienvenido a Instapet</h1>
+    <p>Servicio de cremeción instantánea para mascotas de la compañía "Andá buscando la próxima.</p>
+    <form action="https://formspree.io/biz.sins@gmail.com" method="post">
+        <label for="forpet1">Nombre de la mascota</label>
+        <input id="forpet1" type="text" placeholder="Nombre de la mascota" name="nombre" required value="Diego"><br>
+        <label for="forpet9">Color de la mascota</label>
+        <input id="forpet9" type="color" placeholder="Color de la mascota" name="age" required><br>
+        <label for="forpet2">Edad de la mascota</label>
+        <input id="forpet2" type="number" placeholder="Edad de la mascota" name="age"><br>
+        <label for="forpet3">Correo electrónico</label>
+        <input id="forpet3" type="email" placeholder="Correo electrónico" name="email"><br>
+        <label for="forpet4">Contraseña</label>
+        <input id="forpet4" type="password" placeholder="Contraseña" name="passwd"><br>
+        <label for="submit10">Tamaño</label>
+        <select name="size" id="submit10">
+            <option></option>
+            <option value="sm">Small</option>
+            <option value="m">Medium</option>
+            <option value="lg">Large</option>
+        </select><br>
+        <p>Genero: </p>
+        <label >Macho
+        <input type="radio" name="Genero" value="M">
+        </label>
+        <label>Hembra
+            <input type="radio" name="Genero" value="M">
+        </label>
+        <hr>
+        <label for="terminos">Mensajes:</label><br>
+        <textarea name="t&c" id="terminos" cols="30" rows="10" placeholder="Comments"></textarea><br>
+        <label>Acepta los perminos y condiciones
+            <input type="checkbox" name="acepta" value="Yes">
+        </label>
+        </select>
+        <input type="submit">
+        </form>
+
+
+    </form>
+    <!--
+    <form action="" method="post">
+        <label>Nombre de la mascota
+        <input id="forpet5" type="text" placeholder="Nombre de la mascota" name="nombre"></label><br>
+        <label>Edad de la mascota
+        <input id="forpet6" type="number" placeholder="Edad de la mascota" name="age"></label><br>
+        <label>Correo electrónico
+        <input id="forpet7" type="email" placeholder="Correo electrónico" name="email"></label><br>
+        <label>Contraseña
+        <input id="forpet8" type="password" placeholder="Contraseña" name="passwd"></label><br>
+        <input type="submit" name="Submit">
+        -->
+<hr>
+
+    <label for="sede">Elegí La Sede Donde Querés Estudiar:</label>
+    <select name="sede" id="sede">
+        <option value="atr">Online A Tu Ritmo</option>
+        <option value="pal">Palermo</option>
+        <option value="itu">Ituzaingó</option>
+        <option value="chi">Santiago De Chile</option>
+    </select>
+    <label> Mañana:
+        <input name="Turno" type="radio" value="tm">
+    </label>
+    
+    <label> Tarde:
+        <input name="Turno" type="radio" value="tt">
+    </label>
+    
+    <label> Sábado:
+        <input name="Turno" type="radio" value="ts">
+    </label>
+    
+    <label> A Tu Ritmo:
+        <input name="Turno" type="radio" value="atr">
+    </label>
+
+
+
+</body>
+
+</html>
